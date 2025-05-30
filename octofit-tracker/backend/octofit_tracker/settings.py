@@ -26,8 +26,13 @@ SECRET_KEY = "django-insecure-y5-ru=izn^0ut9p8635+wx4_ar$@wym08p=r+q(e(_u94==l9=
 DEBUG = True
 
 
-# Allow all hosts
-ALLOWED_HOSTS = ["*"]
+# Allow all hosts and Codespace/localhost URLs
+ALLOWED_HOSTS = [
+    "*",
+    "localhost",
+    "127.0.0.1",
+    "miniature-guacamole-p5p64q4wjxqh757g-8000.app.github.dev"
+]
 
 
 # Application definition
