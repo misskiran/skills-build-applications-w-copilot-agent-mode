@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-const API_URL = 'https://miniature-guacamole-p5p64q4wjxqh757g-8000.app.github.dev/api/activity/';
+const API_URL = 'https://miniature-guacamole-p5p64q4wjxqh757g-8000.app.github.dev/api/activity/'; // Django REST API endpoint
 
 function Activities() {
   const [activities, setActivities] = useState([]);
